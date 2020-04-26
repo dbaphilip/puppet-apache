@@ -1,3 +1,6 @@
 ---
 apache::install_name: 'apache2'
+apache::config_paths:
+  - '/etc/apache2/sites-available'
+  - '/etc/apache2/sites-enabled'
 
