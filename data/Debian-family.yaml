@@ -3,4 +3,6 @@ apache::install_name: 'apache2'
 apache::config_paths:
   - '/etc/apache2/sites-available'
   - '/etc/apache2/sites-enabled'
+apache::service_name: 'apache2'
+apache::vhost_dir: '/etc/apache2/sites-available'
 

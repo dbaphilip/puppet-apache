@@ -1,0 +1,9 @@
+<%- | $server_name,
+      $document_root,
+| -%>
+
+<VirtualHost *:80>
+  ServerName <%= $server_name %>
+  DocumentRoot /var/www/<%= $document_root %>
+</VirtualHost>
+

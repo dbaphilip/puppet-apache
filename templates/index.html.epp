@@ -1,0 +1,28 @@
+<%- | $server_name,
+| -%>
+
+<html>
+  <head>
+    <title>Welcome to <%= $server_name %></title>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <style>
+      div {  
+        font-family: 'varela round', sans-serif;
+        margin: 100px auto; width: 600px; border-radius: 5px;
+        background: #f5f6fa; padding: 50px;
+      }
+      a { color: black; font-size: 22px; }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Welcome to <%= $server_name %>.</h1>
+      <ul>
+        <li><a href="http://globomantics.loc">Globomantics</a></li>
+        <li><a href="http://sales.globomantics.loc">Sales</a></li>
+        <li><a href="http://hr.globomantics.loc">HR</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
