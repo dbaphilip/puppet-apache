@@ -1,0 +1,10 @@
+---
+  apache_author:
+    organization: Globomantics
+    address: 123 Farmington, Utah
+    server: Apache
+    developer: Agaba Philip
+    os_family:
+      1: Debian
+      2: Red Hat
+
