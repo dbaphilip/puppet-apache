@@ -3,8 +3,8 @@
   "supports_noop": false,
   "description": "Run 'apachectl' through Puppet",
   "parameters": {
-    "param": {
-      "description": "Which 'apachectl' command to run",
+    "action": {
+      "description": "Which apachectl command to run",
       "type": "Enum[graceful,graceful-stop,start,status,stop]"
     }
   }

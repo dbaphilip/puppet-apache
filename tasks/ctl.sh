@@ -1,4 +1,4 @@
 #!/bin/sh
 
-apachectl $PT_command
+apachectl $PT_action
 
