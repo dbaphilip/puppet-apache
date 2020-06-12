@@ -1,7 +1,7 @@
 {
   "puppet_task_version": 1,
   "supports_noop": false,
-  "description": "Run 'apachectl' through Puppet",
+  "description": "Run apachectl through Puppet",
   "parameters": {
     "action": {
       "description": "Which apachectl command to run",
