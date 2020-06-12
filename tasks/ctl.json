@@ -1,0 +1,12 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Run 'apachectl' through Puppet",
+  "parameters": {
+    "param": {
+      "description": "Which 'apachectl' command to run",
+      "type": "Enum[graceful,graceful-stop,start,status,stop]"
+    }
+  }
+}
+
